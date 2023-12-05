@@ -19,7 +19,7 @@ export default function Home() {
   const name = user ? user.name : "Guest"
 
   const loadAllProducts = () => {
-    getProducts().then(data => {
+    getProducts()?.then(data => {
       if (data.error) {
         setError(data.error)
       } else {
