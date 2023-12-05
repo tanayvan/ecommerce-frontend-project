@@ -5,16 +5,19 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/__tests__/Signin.test.js
   Signin Component
-    ✓ renders signin component and performs signin (34 ms)
+    ✓ renders signin component and performs signin (38 ms)
 
 PASS src/__tests__/Home.test.js
   Home Component
-    ✓ renders home component with products (12 ms)
+    ✓ renders home component with products (24 ms)
 
 Test Suites: 2 passed, 2 total
 Tests:       2 passed, 2 total
 Snapshots:   0 total
-Time:        0.892 s, estimated 1 s
+Time:        0.943 s, estimated 2 s
 Ran all test suites.

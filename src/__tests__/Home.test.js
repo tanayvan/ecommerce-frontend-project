@@ -16,7 +16,7 @@ describe('Home Component', () => {
 
         // Wait for products to be loaded
         await waitFor(() => {
-            expect(screen.getByText('All of tshirts')).toBeInTheDocument();
+            expect(screen.getByText('All Product List')).toBeInTheDocument();
         });
     });
 });
