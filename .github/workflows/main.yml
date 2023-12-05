@@ -20,7 +20,7 @@ jobs:
         run: npm install
 
       - name: Testing React Components
-        run: npm test -- --watchAll=false --verbose > test-log.txt 2>&1
+        run: npm run test -- --watchAll=false --verbose > test-log.txt 2>&1
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
