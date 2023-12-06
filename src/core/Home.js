@@ -38,14 +38,11 @@ export default function Home() {
       {/* <h1>{name}</h1> */}
       <div className="">
         <h1 className="text-5xl text-center">All Product List</h1>
-        <div className="m-5 ">
+        <div className="flex flex-wrap ">
           {products.map((product, index) => {
             return (
-              <div key={index} className="">
-                < Card product={product} isProduct={true} />
+              < Card product={product} isProduct={true} key={index} />
 
-                {/* < ProductCard product={product} /> */}
-              </div>
             )
           })}
         </div>
