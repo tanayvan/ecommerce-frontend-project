@@ -28,7 +28,7 @@ const StripCheckout = ({ products, setReload = f => f, reload = undefined }) => 
         const body = { token, products }
         const headers = { "Content-Type": "application/json" }
         localStorage.removeItem('cart')
-        return fetch(`${API}/product/stripepayment`, {
+        return fetch(`${API}/stripepayment`, {
             method: "POST",
             headers,
             body: JSON.stringify(body)

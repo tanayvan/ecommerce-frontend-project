@@ -1,7 +1,7 @@
-import { API as a } from "../../backend";
+import { API } from "../../backend";
 
 //category call
-const API = a + '/product'
+// const API = a + '/product'
 export const createCategory = (userId, token, category) => {
     return fetch(`${API}/category/create/${userId}`, {
         method: "POST",

@@ -1,5 +1,5 @@
-import { API as a } from "../../backend";
-const API = a + '/auth/api'
+import { API } from "../../backend";
+// const API = a + '/auth/api'
 export const signup = user => {
     return fetch(`${API}/signup`, {
         method: "POST",

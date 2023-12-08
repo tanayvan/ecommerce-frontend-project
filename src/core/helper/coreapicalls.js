@@ -2,7 +2,7 @@ import { API } from "../../backend";
 
 export const getProducts = async () => {
     try {
-        const response = await fetch(`${API}/product/products`, { method: 'GET' });
+        const response = await fetch(`${API}/products`, { method: 'GET' });
         const data = await response.json();
         return data;
     } catch (error) {
